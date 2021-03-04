@@ -3,10 +3,10 @@ import { createGlobalStyle } from 'styled-components';
 const GlobalStyles = createGlobalStyle`
   body {
     box-sizing: border-box;
-    background: #fff;
+    background: ${({ theme }) => theme.bodyBackgroundColor};;
+    color: ${({ theme }) => theme.bodyFontColor};
     min-height: 100vh;
     margin: 0;
-    color: #000;
     font-family: 'Kaushan Script', cursive;
 
     margin: 0;
