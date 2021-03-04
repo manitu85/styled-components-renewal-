@@ -1,7 +1,8 @@
 import React from "react";
+import PageLayout from "components/common/PageLayout";
 
 const Login = () => {
-  return <h1>Login</h1>;
+  return <PageLayout>Login</PageLayout>;
 };
 
 export default Login;

@@ -1,7 +1,8 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
   body {
+    box-sizing: border-box;
     background: #fff;
     min-height: 100vh;
     margin: 0;
