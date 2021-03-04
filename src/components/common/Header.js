@@ -11,7 +11,7 @@ const HeaderWrapper = styled.header`
   position: fixed;
   top: 0;
   border-top: 3px solid cyan;
-  background-image: linear-gradient(to right, #bd2fb1, #fdd54f);
+  background-image: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
 
   /* background-image: linear-gradient(
     to right,
@@ -49,6 +49,7 @@ const Link = ({ isActive, children, ...props }) => {
 };
 
 const StyledLink = styled(Link)`
+  /* color: #fff; */
   padding: 4px 8px;
   display: block;
   text-align: center;
