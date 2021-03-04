@@ -90,4 +90,8 @@ const Form = styled.form`
     text-align: center;
     margin: 10px 0;
   }
+  /* Referencing a styled component within another styled component */
+  ${Button}:first-of-type {
+    margin-top: 20px;
+  }
 `;
